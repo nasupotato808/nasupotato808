@@ -122,5 +122,3 @@ Couch potato, but still compiling
   </picture>
 </p>
 
----
-````
