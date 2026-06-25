@@ -1,0 +1,1 @@
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Hi+there!+I'm+a+Developer;I+love+building+cool+things;Welcome+to+my+profile!)
