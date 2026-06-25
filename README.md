@@ -123,19 +123,4 @@ Couch potato, but still compiling
 </p>
 
 ---
-
-## 🌐 Portfolio
-
-```txt
-Status : Under construction
-<!-- Link   : https://your-personal-website.com -->
-```
-
-Planned: **About · Projects · Resume · Learning Notes · Contact**
-
----
-
-<p align="center">
-  <i>🥔 potato mode activated · commits loading...</i>
-</p>
 ````

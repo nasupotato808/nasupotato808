@@ -1,22 +1,30 @@
 name: Generate Contribution Snake
 
 on:
+  # run automatically every 2 hours
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */2 * * *" 
+
+  # allows to manually run the job at any time
   workflow_dispatch:
 
-permissions:
-  contents: write
+  # run on every push on the master branch
+  push:
+    branches:
+    - master
 
 jobs:
   generate:
+    permissions: 
+      contents: write
     runs-on: ubuntu-latest
-
+    timeout-minutes: 5
+    
     steps:
       - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: nasupotato808
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
