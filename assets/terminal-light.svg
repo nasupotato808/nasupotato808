@@ -1,0 +1,31 @@
+<svg width="850" height="330" viewBox="0 0 850 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="850" height="330" rx="16" fill="#F6F8FA" stroke="#D0D7DE"/>
+
+  <!-- Terminal header -->
+  <rect x="0" y="0" width="850" height="42" rx="16" fill="#EAEEF2"/>
+  <circle cx="26" cy="21" r="6" fill="#FF5F56"/>
+  <circle cx="46" cy="21" r="6" fill="#FFBD2E"/>
+  <circle cx="66" cy="21" r="6" fill="#27C93F"/>
+
+  <text x="425" y="27" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="13" fill="#57606A">
+    jiaxuan@github: ~/profile
+  </text>
+
+  <!-- Terminal content -->
+  <text x="34" y="78" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#0969DA">$ whoami</text>
+  <text x="34" y="104" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#24292F">Jia Xuan</text>
+
+  <text x="34" y="142" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#0969DA">$ status</text>
+  <text x="34" y="168" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#24292F">Graduate student · Open to work</text>
+
+  <text x="34" y="206" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#0969DA">$ current_focus</text>
+  <text x="34" y="232" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#24292F">Backend · Cloud · QA · Data · Networking</text>
+
+  <text x="34" y="270" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#0969DA">$ languages</text>
+  <text x="34" y="296" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#24292F">English · Mandarin · Japanese · Malay</text>
+
+  <!-- Blinking cursor -->
+  <rect x="510" y="284" width="9" height="18" fill="#7C3AED">
+    <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
