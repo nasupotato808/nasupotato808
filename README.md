@@ -82,10 +82,7 @@ Username: nasupotato808
 | Project | Focus | Status |
 |---|---|---|
 | `personal-portfolio` | Portfolio website | Under construction |
-| `api-playground` | FastAPI / REST APIs / SQL | Building |
-| `cloud-learning-notes` | Azure / AWS / Docker / Linux | In progress |
-| `qa-testing-lab` | PyTest / Regression Testing / Test Data | In progress |
-| `data-pipeline-lab` | Pandas / NumPy / API Pipelines | Planned |
+| `Final Year Project` | FastAPI / SQLite / SUMO / Next.js | Changing domain... |
 
 ---
 
